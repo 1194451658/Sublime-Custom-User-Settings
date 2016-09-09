@@ -3,7 +3,11 @@
 // and are overridden in turn by file type specific settings.
 {
 
-	// FOLDERS添加，过滤meta
+	//
+	// FOLDERS　Settings
+	//
+
+	// ignore unity .meta file
     "file_exclude_patterns": [
     	"*.pyc",
 		"*.pyo",
@@ -27,4 +31,16 @@
 		 "*.sublime-workspace",
 		 "*.meta"
 	],
+
+	// Show folders in the side bar in bold
+	"bold_folder_labels": true,
+
+
+	//
+	// Other Setting
+	//
+
+	// If enabled, will highlight any line with a caret
+    "highlight_line": true,
+
 }
