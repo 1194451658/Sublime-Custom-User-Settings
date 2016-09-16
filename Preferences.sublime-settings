@@ -43,4 +43,13 @@
 	// If enabled, will highlight any line with a caret
     "highlight_line": true,
 
+        // Set to true to draw a border around the visible rectangle on the minimap.
+    // The color of the border will be determined by the "minimapBorder" key in
+    // the color scheme
+    "draw_minimap_border": true,
+
+    // Always visualise the viewport on the minimap, as opposed to only
+    // showing it on mouse over
+    "always_show_minimap_viewport": true,
+
 }
